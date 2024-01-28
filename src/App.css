@@ -1,0 +1,27 @@
+.inner{
+  display: flex;
+  border: 3px solid blue;
+  padding-top: 200px;
+  justify-content: center;
+  gap: 50px;
+}
+.inner button{
+  width: 200px;
+  padding: 8px 12px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: burlywood;
+  border: 3px solid burlywood;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.inner button:hover{
+  color: burlywood;
+  background-color: transparent;
+}
+.inner button:active{
+transform: scale(1.1);
+}
